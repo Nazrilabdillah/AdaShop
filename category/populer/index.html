@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="../../src/style.css">
+<script src="https://unpkg.com/feather-icons"></script>
+<body>
+  <nav>
+    <div class="nav-logo">
+      <h1>adaShop</h1>
+    </div>
+    <div class="nav-link">
+      <ul class="nav-com">
+        <li class="nav-a">
+          <a href="#">Home</a>
+        </li>
+        <li class="nav-a">
+          <a href="#" class="a">semua produk</a>
+        </li>
+        <li class="nav-a">
+          <a href="#">tentang kami</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-extra">
+      <ul class="nav-icon">
+        <li class="nav-menu" onclick="toggleSearch('open')">
+          <a class="search-icon1 searchToggle" data-feather ="search"></a>
+        </li>
+        <li class="nav-menu" onclick="toggleSearch('close')">
+          <a class="close-icon1 searchToggle" data-feather ="x"></a>
+        </li>
+        <li class="nav-menu">
+          <a data-feather ="shopping-cart"></a>
+        </li>
+         <li class="nav-menu">
+          <a ></a>
+        </li>
+         <li class="nav-menu" onclick="toggleMenu('open')">
+          <a class="menu" data-feather ="menu"></a>
+        </li>
+         <li class="nav-menu" onclick="toggleMenu('close')">
+          <a class="closeMenu" data-feather ="x"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="search-parrent1">
+  <!--
+  <div class="search-parrent2">
+    <input type="text" class="searchInput">
+          <a class="extra" >|</a>
+          <a class="search-icon2" data-feather ="search"></a>
+  </div>
+  -->
+  </div>
+     <div class="Populer-produk">
+      <div class="wrapper-produk">
+        <li>
+          <h3>Produk Populer</h3>
+        </li>
+         </h3>
+         </li>
+        <div class="cart-populer-produk">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="wrapper-footer">
+
+   
+      <div class="footer-contact"><h3>Hubungi kami</h3></div>
+      <div class="footer-contact-icon"><li><a href="#" data-feather="instagram"></a></li>
+        <li><a href="#" data-feather="facebook"></a></li>
+        <li><a href="#" data-feather="github"></a></li>
+      </div>
+    
+   <div class="footer-by">Created By @Nazril abdillah 2023</div>
+  </div>
+    </div>
+ <script>
+  feather.replace();
+</script>
+<script src="populerProduk.js" type="modul"></script>
+</body>
+</html>
